@@ -21,14 +21,14 @@ char* movie::getDirector() {
   return director;
 }
 
-int movie::getYear() {
+int* movie::getYear() {
   return year;
 }
 
-int movie::getLength() {
-  return length;
+int* movie::getLength() {
+  return &length;
 }
 
-float movie::getRating() {
-  return rating;
+float* movie::getRating() {
+  return &rating;
 }

@@ -13,22 +13,22 @@ int music::getType() {
   return 1;
 }
 
-char* music::getName() {
+char music::getName() {
   return name;
 }
 
-char* music::getArtist() {
+char music::getArtist() {
   return artist;
 }
 
-char* music::getPublisher() {
+char music::getPublisher() {
   return publisher;
 }
 
-int music::getYear() {
+int* music::getYear() {
   return year;
 }
 
-int music::getLength() {
+int* music::getLength() {
   return length;
 }

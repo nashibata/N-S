@@ -13,18 +13,18 @@ int game::getType() {
   return 0;
 }
 
-char* game::getName() {
+char game::getName() {
   return name;
 }
 
-int game::getYear() {
+int* game::getYear() {
   return year;
 }
 
-char* game::getPublisher() {
+char game::getPublisher() {
   return publisher;
 }
 
-float game::getRating() {
+float* game::getRating() {
   return rating;
 }
